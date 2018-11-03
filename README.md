@@ -4,6 +4,9 @@ Congigure hadoop yarn sparksql.
 
 Based on https://github.com/ssavvides/tpch-spark &
          https://github.com/xiandong79/tpch-Spark.git
+         
+Requirements:
+sudo apt install default-jdk, scala
 
 Possible problems
 0. Java_home hadoop-env.sh.
