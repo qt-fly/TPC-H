@@ -7,6 +7,7 @@ Based on https://github.com/ssavvides/tpch-spark &
          
 Requirements:
 sudo apt install default-jdk, scala
+Command: spark-submit --class "main.scala.TpchQuery" --master yarn --conf spark.default.parallelism=5 --executor-cores 5 target/scala-2.11/spark-tpc-h-queries_2.11-1.0.jar 22
 
 Possible problems
 0. Java_home hadoop-env.sh.
