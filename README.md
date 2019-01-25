@@ -26,5 +26,6 @@ Possible problems
    Solve: hadoop dfsadmin -safemode leave
 4. Change INPUT_DIR & OUTPUT_DIR in TpchQuery.scala. Either hdfs or local file
 5. Default yarn.nodemanager.vmem-pmem-ratio is 2.1. Depend on your dataset, you need to change this in yarn-site.xml
+5. tpch-spark: spark-submit --class "main.scala.TpchQuery" --master yarn target/scala-2.11/spark-tpc-h-queries_2.11-1.0.jar 01
 
 
